@@ -84,24 +84,17 @@ export default function AttendeeList() {
   function onSearchInputChanged(e: ChangeEvent<HTMLInputElement>) {
     setCurrentSearch(e.target.value);
     setCurrentPage(1);
-    // setPage(1);
   }
 
   function goToNextPage() {
-    // setPage(page + 1);
-
     setCurrentPage(page + 1);
   }
 
   function goToPreviousPage() {
-    // setPage(page - 1);
-
     setCurrentPage(page - 1);
   }
 
   function goToFirstPage() {
-    // setPage(1);
-
     setCurrentPage(1);
   }
 
@@ -116,8 +109,6 @@ export default function AttendeeList() {
   }
 
   function goToLastPage() {
-    // setPage(totalPages);
-
     setCurrentPage(totalPages);
   }
 
